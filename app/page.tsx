@@ -1,7 +1,7 @@
 import dynamic from 'next/dynamic'
 import Image from 'next/image'
 
-const DynamicMap = dynamic(() => import('../components/Map'), {
+const DynamicMap = dynamic(() => import('@/components/Map'), {
   ssr: false,
 })
 
